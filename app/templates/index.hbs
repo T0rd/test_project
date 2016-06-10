@@ -1,7 +1,6 @@
 <h1>Travel event</h1>
 
-{{#each models as |event|}}
-  <h2>{{event.title}}</h2>
-  <p>{{event.short_describe}}</p>
+{{#each model as |eventUnit|}}
+  {{event-item event=eventUnit}}
 {{/each}}
 

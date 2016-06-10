@@ -1,12 +1,12 @@
 export default function() {
-  this.get('/event', function(){
+  this.get('/events', function(){
     return {
 	data: [{
 	  type: 'event',
 	  id: 1,
 	  attributes:{
 	  title: 'First trip',
-	  short_describe: 'Meeting London',
+	  shortdescribe: 'Meeting London',
 	  describe: 'Visit London. Meet old friend. Look at the Times river'
 	              }
 	       }]

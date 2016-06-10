@@ -4,7 +4,7 @@ import DS from 'ember-data';
 
 export default DS.Model.extend({
 	title: DS.attr(),
-	short_describe: DS.attr(),
+	shortdescribe: DS.attr(),
 	describe: DS.attr()
 
 });
