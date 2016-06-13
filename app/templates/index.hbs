@@ -1,6 +1,7 @@
-<h2>Travel event</h2>
-
+<p><h2>Travel event</h2></p>
+<br>
+{{filter-listing filteredList=filteredList autoComplete=(action 'autoComplete') search=(action 'search')}}
 {{#each model as |eventUnit|}}
-  {{event-item event=eventUnit}}
+ {{event-item event=eventUnit}}
 {{/each}}
-
+<h5>Created by Artem Gutorov</h5>

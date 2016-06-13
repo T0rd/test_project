@@ -1,0 +1,9 @@
+<p><h3>Event:</h3></p> <p>{{input value=filter key-up=(action 'autoComplete' filter)}}
+<button {{action 'search'}}><b>Search</b></button>
+</p>
+
+<ul>
+{{#each filteredList as |item|}}
+  <li {{action 'choose' item.title}}>{{item.title}}</li>
+{{/each}}
+</ul>
