@@ -6,10 +6,27 @@ export default function() {
 	  id: 1,
 	  attributes:{
 	  title: 'First trip',
-	  shortdescribe: 'Meeting London',
-	  describe: 'Visit London. Meet old friend. Look at the Times river'
+	  shortdescribe: 'Visit London',
+	  describe: 'Meet old friend. Look at the Times river'
 	              }
-	       }]
+	       }, {
+          type: 'event',
+          id: 2,
+          attributes:{
+          title: 'Second trip',
+          shortdescribe: 'Visit France',
+          describe: 'Watch Euro 2016. Make photoes with football players.'
+                      }
+               },
+	  {
+          type: 'event',
+          id: 3,
+          attributes:{
+          title: 'Third trip',
+          shortdescribe: 'Visit Tokyo',
+          describe: 'See another culture. '
+                      }
+               }]
 	  }
 	});
  
